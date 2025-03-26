@@ -7,5 +7,4 @@ public class Benutzerprofil {
         return benutzername;
     }
 
-
 }
