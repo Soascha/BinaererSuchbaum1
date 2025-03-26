@@ -1,7 +1,9 @@
 import utils.ComparableContent;
 
-public class Benutzerprofil implements ComparableContent {
+public class Benutzerprofil implements ComparableContent<Benutzerprofil>{
     private String benutzername;
+    private String pw;
+    private String login;
 
     Benutzerprofil(String login, String pw) {
     }
