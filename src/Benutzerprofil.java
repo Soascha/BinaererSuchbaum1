@@ -1,7 +1,7 @@
 import utils.ComparableContent;
 
 public class Benutzerprofil implements ComparableContent<Benutzerprofil>{
-    private String benutzername;
+    private String Benutzername;
     private String pw;
     private String login;
 
@@ -9,19 +9,19 @@ public class Benutzerprofil implements ComparableContent<Benutzerprofil>{
     }
 
     public String getBenutzername() {
-        return benutzername;
+        return Benutzername;
     }
 
     public boolean isLess(Benutzerprofil pContent) {
-        return this.benutzername.compareTo(pContent.getBenutzername()) < 0;
+        return this.Benutzername.compareTo(pContent.getBenutzername()) < 0;
     }
 
     public boolean isEqual(Benutzerprofil pContent) {
-       return this.benutzername.equals(pContent.getBenutzername());
+       return this.Benutzername.equals(pContent.getBenutzername());
     }
 
     public boolean isGreater(Benutzerprofil pContent) {
-        return this.benutzername.compareTo(pContent.getBenutzername()) > 0;
+        return this.Benutzername.compareTo(pContent.getBenutzername()) > 0;
     }
 }
 
